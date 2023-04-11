@@ -1,4 +1,5 @@
-import HSSearchPage from "./lib";
+import HSSearchPage from "hs_search_page";
+// import HSSearchPage from "./lib";
 
 function App() {
     return (
@@ -10,7 +11,7 @@ function App() {
                 targetURL={"url"}
                 primaryText={"title"}
                 secondaryText={"description"}
-                onTypeSearch={false}
+                onTypeSearch={true}
             />
         </>
     );
