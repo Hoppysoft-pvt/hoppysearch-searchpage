@@ -1,7 +1,7 @@
 {
-  "name": "hs_search_page",
+  "name": "hs-search-page",
   "description": "Search Page Powered By Hoppysearch",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
