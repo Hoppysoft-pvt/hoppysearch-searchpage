@@ -1,12 +1,12 @@
-import HSSearchPage from "hs_search_page";
+import HSSearchPage from "hs-search-page";
 // import HSSearchPage from "./lib";
 
 function App() {
     return (
         <>
             <HSSearchPage
-                indexId={"vo84r6"}
-                apiKey={"hs_wfgl9gjn0vwej6vw"}
+                indexId={"jq0c0b"}
+                apiKey={"hs_2d1vkth26fpt4ngw"}
                 iconURL={"image"}
                 targetURL={"url"}
                 primaryText={"title"}

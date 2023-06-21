@@ -82,7 +82,7 @@ const HSSearchPage = _ref => {
     };
   }
   const handleSearchJsonData = searchText => {
-    const simpleSearchEndpoint = searchText ? "https://".concat(indexId, ".hoppysearch.com/search?q=").concat(searchText, "&pageIndex=").concat(searchPageController.pageIndex, "&pageSize=").concat(searchPageController.pageSize) : "https://".concat(indexId, ".hoppysearch.com/search?pageIndex=").concat(searchPageController.pageIndex, "&pageSize=").concat(searchPageController.pageSize);
+    const simpleSearchEndpoint = searchText ? "https://".concat(indexId, ".hoppysearch.com/v1/search?q=").concat(searchText, "&pageIndex=").concat(searchPageController.pageIndex, "&pageSize=").concat(searchPageController.pageSize) : "https://".concat(indexId, ".hoppysearch.com/v1/search?pageIndex=").concat(searchPageController.pageIndex, "&pageSize=").concat(searchPageController.pageSize);
     _axios.default.get(simpleSearchEndpoint, {
       headers: {
         'Authorization': apiKey

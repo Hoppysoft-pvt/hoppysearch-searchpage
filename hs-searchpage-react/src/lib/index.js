@@ -81,8 +81,8 @@ const HSSearchPage = ({
 
     const handleSearchJsonData = (searchText) => {
         const simpleSearchEndpoint = searchText
-            ? `https://${indexId}.hoppysearch.com/search?q=${searchText}&pageIndex=${searchPageController.pageIndex}&pageSize=${searchPageController.pageSize}`
-            : `https://${indexId}.hoppysearch.com/search?pageIndex=${searchPageController.pageIndex}&pageSize=${searchPageController.pageSize}`;
+            ? `https://${indexId}.hoppysearch.com/v1/search?q=${searchText}&pageIndex=${searchPageController.pageIndex}&pageSize=${searchPageController.pageSize}`
+            : `https://${indexId}.hoppysearch.com/v1/search?pageIndex=${searchPageController.pageIndex}&pageSize=${searchPageController.pageSize}`;
 
         axios.get(simpleSearchEndpoint, {
             headers: {
