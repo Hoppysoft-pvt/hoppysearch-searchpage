@@ -4,6 +4,9 @@ import { ListItemText } from "@mui/material";
 const ListItemTextWithHighlightedText = ({ primary, secondary, highlightedWords }) => {
 
   const highlightText = (text) => {
+    if (!text) {
+      text = ""
+    }
     const regex = new RegExp(`(${highlightedWords.join("|")})`, "gi");
     const parts = text.split(regex);
     

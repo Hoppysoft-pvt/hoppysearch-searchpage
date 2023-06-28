@@ -20,6 +20,9 @@ const ListItemTextWithHighlightedText = _ref => {
     highlightedWords
   } = _ref;
   const highlightText = text => {
+    if (!text) {
+      text = "";
+    }
     const regex = new RegExp("(".concat(highlightedWords.join("|"), ")"), "gi");
     const parts = text.split(regex);
     return parts.map((part, i) => highlightedWords.includes(part.toLowerCase()) ? /*#__PURE__*/_react.default.createElement("span", {
