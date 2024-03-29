@@ -63,7 +63,7 @@ Proceed with the installation by following these steps:
 
    5. **primaryText, secondaryText, targetURL, iconURL**: 
    
-    -  Customize these fields according to your dataset. For example, if you have data like this:
+       -  Customize these fields according to your dataset. For example, if you have data like this:
       
           ### JSON
 
@@ -89,14 +89,14 @@ Proceed with the installation by following these steps:
                     }
                 }
              ```
-    - Set these fields as follows:
+       - Set these fields as follows:
 
            1. targetURL=url
            2. iconURL=image
            3. primaryText=name
            4. secondaryText=about
 
-    - You can modify it according to you dataset and requirements. targetURL and secondaryText are optional field.
+       - You can modify it according to you dataset and requirements. targetURL and secondaryText are optional field.
 
 #### For a step-by-step visual guide on implementing "hs-search-page" in your React project, watch this [YouTube video.](https://youtu.be/ukECXrxcvm0)
 
