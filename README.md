@@ -10,7 +10,7 @@ To achieve this follow below instructions.
 
 ## Installation
 
-This project was generated with [React js](https://react.dev/learn/start-a-new-react-project) version 15.2.7.
+This project was generated with [React js](https://react.dev/learn/start-a-new-react-project) version 18.2.0
 
 ### For [React.js](https://react.dev/learn/start-a-new-react-project)
 
