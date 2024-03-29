@@ -61,32 +61,34 @@ Proceed with the installation by following these steps:
 
    4. **onTypeSearch**: Choose between "true" (automatic search as you type) or "false" (manual search by clicking the search button).
 
-   5. **primaryText, secondaryText, targetURL, iconURL**: Customize these fields according to your dataset. For example, if you have data like this:
+   5. **primaryText, secondaryText, targetURL, iconURL**: 
+   
+    1. Customize these fields according to your dataset. For example, if you have data like this:
 
-    ### JSON
+          ### JSON
 
-    ```javascript
-    {
-     "documents": [
-        {
-          "Id": 12,
-          "ProductId": "B001M1L12M",
-          "UserId": "A27KQ4QYY0O334",
-          "ProfileName": "R. Strom",
-          "HelpfulnessNumerator": 0,
-          "HelpfulnessDenominator": 0,
-          "Score": 5,
-          "Time": 1258502400,
-          "Summary": "super black does the job",
-          "Text": "As with the Americolor red, red, super black works exceptionally well."
-        },
-     // Add more records as needed...
-    ],
-     "config": {
-        "type": "append"
-     }
-   }
-    ```
+             ```javascript
+                {
+                   "documents": [
+                      {
+                         "Id": 12,
+                         "ProductId": "B001M1L12M",
+                         "UserId": "A27KQ4QYY0O334",
+                         "ProfileName": "R. Strom",
+                         "HelpfulnessNumerator": 0,
+                         "HelpfulnessDenominator": 0,
+                         "Score": 5,
+                         "Time": 1258502400,
+                         "Summary": "super black does the job",
+                         "Text": "As with the Americolor red, red, super black works exceptionally well."
+                       },
+                     // Add more records as needed...
+                   ],
+                   "config": {
+                       "type": "append"
+                    }
+                }
+             ```
     2. Set these fields as follows:
 
         1. targetURL=url
