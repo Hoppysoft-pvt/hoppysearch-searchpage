@@ -61,9 +61,7 @@ Proceed with the installation by following these steps:
 
    4. **onTypeSearch**: Choose between "true" (automatic search as you type) or "false" (manual search by clicking the search button).
 
-   5. **primaryText, secondaryText, targetURL, iconURL**: 
-   
-    1. Customize these fields according to your dataset. For example, if you have data like this:
+   5. **primaryText, secondaryText, targetURL, iconURL**: Customize these fields according to your dataset. For example, if you have data like this:
 
     ### JSON
 
